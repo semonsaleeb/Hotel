@@ -5,7 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="jquery-3.6.4.js"></script>
     <title>Hotel</title>
+    <style>
+      img:hover {
+        opacity: 100%;
+        
+      
+      }
+      img{
+        opacity: 0.8;
+
+      }
+    </style>
     
 </head>
 <body>
@@ -33,24 +45,24 @@
       <!-- ------------------------------------------------------------------- -->
 
       <div class="container">
-            <div class="row" style="margin-top: 20px;">
+            <div class="row" style="margin-top: 20px; display:none;" id="div1">
  
                 <div class="col-md-4"> 
-                  <div class="col" style="width: 18rem;">
+                  <div class="col" >
                     <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQLkhkvOWkI0REi7ie8cCDGEDMS7O1WS3TVaqVSZ_BoLty9fQEtvYDcPCXrOI_DMt4cHA&usqp=CAU" alt="Card image cap">
                     <div class="card-body">
                     </div>  
                     </div>
                     </div>
-                    <div class="col-md-4"> 
-                        <div class="col" style="width: 18rem;">
-                          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEacWNkqNwIzuaCbfiQwxinMuFsu2xQ1gAjHwS-V5yj5QgOmv0U-Ggo2iAVYPQBqGCOSQ&usqp=CAU" alt="Card image cap">
+                    <div class="col-md-4" class="slideup"> 
+                        <div class="col" >
+                          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEacWNkqNwIzuaCbfiQwxinMuFsu2xQ1gAjHwS-V5yj5QgOmv0U-Ggo2iAVYPQBqGCOSQ&usqp=CAU" alt="Card image cap" style="height: 240px;">
                           <div class="card-body">
                           </div>  
                           </div>
                           </div>
                      <div class="col-md-4"> 
-                  <div class="col" style="width: 18rem;">
+                  <div class="col" >
                     <img class="card-img-top" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
                     <div class="card-body">
                     </div>
@@ -58,24 +70,24 @@
                     </div>
                     
                     </div>
-                    <div class="row" style="margin-top: 20px;">
+                    <div class="row" style="margin-top: 20px;display:none;" id="div2">
  
                         <div class="col-md-4"> 
-                          <div class="col" style="width: 18rem;">
+                          <div class="col" >
                             <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-MqwmTZlqjDihmlSxlFM6D-KyHFYDJ-J63CnnfoaSm19TEX5q1apxwd4QVNYKPALoGNE&usqp=CAU" alt="Card image cap">
                             <div class="card-body">
                             </div>  
                             </div>
                             </div>
-                            <div class="col-md-4"> 
-                                <div class="col" style="width: 18rem;">
+                            <div class="col-md-4" class="slideup"> 
+                                <div class="col" >
                                   <img class="card-img-top" src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
                                   <div class="card-body">
                                   </div>  
                                   </div>
                                   </div>
                              <div class="col-md-4"> 
-                          <div class="col" style="width: 18rem;">
+                          <div class="col" >
                             <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLpM1xc8hnUjYDFWYVBWziSCJsAObPDJIA5Lv6zCHq3wkOmpRTvdK1ISvFBEpkqdp61s4&usqp=CAU" alt="Card image cap">
                             <div class="card-body">
                             </div>
@@ -83,24 +95,24 @@
                             </div>
                             
                             </div>
-                            <div class="row" style="margin-top: 20px;">
+                            <div class="row" style="margin-top: 20px; display:none;" id="div3">
  
                                 <div class="col-md-4"> 
-                                  <div class="col" style="width: 18rem;">
-                                    <img class="card-img-top" src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
+                                  <div class="col" >
+                                    <img class="card-img-top" src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card image cap" style="height: 200px;">
                                     <div class="card-body">
                                     </div>  
                                     </div>
                                     </div>
-                                    <div class="col-md-4"> 
-                                        <div class="col" style="width: 18rem;">
+                                    <div class="col-md-4" class="slideup"> 
+                                        <div class="col" >
                                           <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5syQXTQ-Br4KzEiB6mEZALRsAFHW3ttAHVCRQtBQCtPRTurFwBY3MR4DFjmyYJMAN8Vk&usqp=CAU" alt="Card image cap">
                                           <div class="card-body">
                                           </div>  
                                           </div>
                                           </div>
                                      <div class="col-md-4"> 
-                                  <div class="col" style="width: 18rem;">
+                                  <div class="col" >
                                     <img class="card-img-top" src="https://images.unsplash.com/photo-1590447158019-883d8d5f8bc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdGVsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
                                     <div class="card-body">
                                     </div>
@@ -110,12 +122,12 @@
                                     </div>
 </div>
        <!-- FOOTER -->
-       <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary" style="background-color: rgb(178, 200, 245);">
+       <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary" style="background-image: linear-gradient(rgb(170, 227, 231), rgb(35, 94, 99));">
         <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
           <div class="row">
             <div class="col-lg-3 mb-3">
               <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"/></svg>
+                <img src="img/logo.png" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"/></img>
                 <span class="fs-5">Hotel</span>
               </a>
               <ul class="list-unstyled small">
@@ -170,6 +182,7 @@
         </div>
       </footer>
         <!-- </div> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+        <script src="animate.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      </body>
 </html>
